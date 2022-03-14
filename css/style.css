@@ -26,12 +26,15 @@ main {
     margin: 3rem 0rem;
     width: 45%;
     float: left;
+    list-style-type: none;
+
 }
 
 main h1 {
     color: #bc1723;
     padding-top: 2rem;
     font-size: 24px;
+    margin: 150px 0;
 }
 
 header img{
@@ -40,7 +43,9 @@ header img{
 }
 
 #mainImage {
+    display: block;
     width: 50%;
+    margin: auto;
 }
 
 p{
@@ -131,12 +136,9 @@ a{
 
 .popup li{
     font-family: Skia Regular;
+    list-style-type: none;
 }
 
 .hidden {
     display: none;
-}
-
-li{
-    list-style-type: none;
 }
