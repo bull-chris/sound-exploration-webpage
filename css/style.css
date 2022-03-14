@@ -3,6 +3,11 @@
     src: url("../fonts/skia.ttf") format('truetype');
 }
 
+@font-face {
+    font-family: "Skia Regular";
+    src: url("../fonts/Skia\ Regular.ttf") format('truetype');
+}
+
 * {
     margin-left: auto;
     margin-right: auto;
@@ -25,14 +30,27 @@ main {
 
 main h1 {
     color: #bc1723;
+    padding-top: 2rem;
+    font-size: 24px;
 }
 
 header img{
-    width: 45%;
+    padding-top:2rem;
+    width: 25%;
 }
 
 #mainImage {
     width: 50%;
+}
+
+p{
+    font-family: Skia Regular;
+}
+
+a{
+    text-decoration: none;
+    color:#bc1723;
+    font-family: Skia Regular;
 }
 
 #instruction-section {
