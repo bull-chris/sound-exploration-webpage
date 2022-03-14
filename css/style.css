@@ -126,6 +126,11 @@ a{
     text-align: center;
     background-color: #bc1723;
     color: white;
+    padding:1rem;
+}
+
+.popup li{
+    font-family: Skia Regular;
 }
 
 .hidden {
