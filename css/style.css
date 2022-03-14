@@ -15,12 +15,13 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
     background-image: url("/images/background_with_notes.png");
     background-repeat: no-repeat;
     background-size: cover;
     margin-left: 3rem;
 }
+
 
 main {
     margin: 3rem 0rem;
@@ -32,14 +33,20 @@ main {
 
 main h1 {
     color: #bc1723;
-    padding-top: 2rem;
     font-size: 24px;
-    margin: 150px 0;
 }
 
 header img{
-    padding-top:2rem;
-    width: 25%;
+    padding:2rem;
+    width: 35%;
+}
+
+header{
+    width:64%;
+    background-color: black;
+    float:left;
+    margin-left: -3rem;
+    margin-top: -1rem;
 }
 
 #mainImage {
