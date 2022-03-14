@@ -3,7 +3,7 @@ let howToPlayBtn = document.getElementById('instruction-button');
 let closeBtn = document.getElementById('popup-close');
 
 let videoDisplay = document.getElementById('video-display')
-let videoPlay = document.getElementById('soundButton');
+let videoPlay = document.getElementById('playButton');
 let closeVideoButton = document.getElementById('video-close');
 
 popup.classList.add('hidden')

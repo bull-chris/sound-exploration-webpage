@@ -9,8 +9,6 @@
 }
 
 * {
-    margin-left: auto;
-    margin-right: auto;
     font-family: "Skia";
 }
 
@@ -23,7 +21,7 @@ body {
 }
 
 main {
-    margin: 3rem 0rem;
+    margin: 7rem 0rem 4rem 0rem;
     width: 45%;
     float: left;
 }
@@ -55,28 +53,14 @@ a{
 
 #instruction-section {
     display: flex;
+    justify-content: space-between;
 }
 
-#video-controls {
-    background-color: #bc1723;
-    padding: 1rem;
-}
-
-#video-controls img {
-    max-height: 50px;
-    max-width: 50px;
-    margin: 0rem 2rem;
-}
-
-#soundButton {
-    padding-bottom: 0.25rem;
-}
-
-#instruction-button {
+#instruction-button, #playButton {
     font-family: "Skia";
     color: white;
     background-color: #bc1723;
-    padding: 2rem 1rem;
+    padding: 2rem 2rem;
 }
 
 #howtoplay-container{
@@ -105,6 +89,12 @@ a{
     z-index: 6;
 }
 
+iframe {
+    width: 100%;
+    height: 95%;
+    padding-top: 1rem;
+}
+
 .popup {
     background-color: white;
     width: 650px;
@@ -115,6 +105,7 @@ a{
 }
 
 .popup a, #video-container a{
+    color: black;
     width: 100%;
     font-size: 1.5rem;
     display: inline-block;
