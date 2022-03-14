@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Skia";
+    src: url("../fonts/skia.ttf") format('truetype');
+}
+
+* {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Skia";
+}
+
+body {
+    background-color: black;
+    background-image: url("/images/background_with_notes.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3rem;
+}
+
+main {
+    margin: 3rem 0rem;
+    width: 45%;
+    float: left;
+}
+
+main h1 {
+    color: #bc1723;
+}
+
+header img{
+    width: 45%;
+}
+
+#mainImage {
+    width: 50%;
+}
+
+#instruction-section {
+    display: flex;
+}
+
+#video-controls {
+    background-color: #bc1723;
+    padding: 1rem;
+}
+
+#video-controls img {
+    max-height: 50px;
+    max-width: 50px;
+    margin: 0rem 2rem;
+}
+
+#soundButton {
+    padding-bottom: 0.25rem;
+}
+
+#instruction-button {
+    font-family: "Skia";
+    color: white;
+    background-color: #bc1723;
+    padding: 2rem 1rem;
+}
