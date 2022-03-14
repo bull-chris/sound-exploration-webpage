@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <!-- Title of the Page -->
     <title>Sound exploration with Microbit</title>
 </head>
+
 <body>
     <header>
         <img src="./images/logo.png" alt="Logo for sound exploration">
@@ -18,9 +20,12 @@
         <h1>Piano</h1>
         <img id="mainImage" src="./images/piano.png" alt="Piano">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus corrupti autem velit! Obcaecati numquam dolores est delectus, praesentium ipsum maiores nemo eveniet tenetur repudiandae autem exercitationem tempora, error blanditiis!
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis in laboriosam unde accusamus assumenda iusto eum deserunt atque, quia illo hic facilis nobis qui, tempora vero ab, dignissimos aspernatur aliquid.
+            Sound compass is a musical instrument made using microbit. Microbit is a small circuit board with multiple
+            sensors in it. for this instrument, we are using a compass sensor in-built in microbit. when the user
+            rotates this board at a certain angle it produces piano sounds. there are 8 pre-defined sounds for 8
+            different angles.
         </p>
+
 
         <section id="instruction-section">
             <section id="video-controls">
@@ -28,10 +33,31 @@
                 <img src="./images/refresh_button.png" alt="" srcset="Refresh video button">
                 <img id="soundButton" src="./images/sound_btn.png" alt="Mute video button">
             </section>
-            <section>
+            <section id="howtoplay-container">
+                <div class="popup" id="popup">
+                    <a id="popup-close">
+                        x
+                    </a>
+                    <h2>Instructions to Play</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias necessitatibus corrupti autem
+                        velit!
+                        Obcaecati numquam dolores est delectus, praesentium ipsum maiores nemo eveniet tenetur
+                        repudiandae autem
+                        exercitationem tempora, error blanditiis!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis in laboriosam unde
+                        accusamus assumenda
+                        iusto eum deserunt atque, quia illo hic facilis nobis qui, tempora vero ab, dignissimos
+                        aspernatur aliquid.
+                    </p>
+                </div>
                 <button id="instruction-button">How to play</button>
+
             </section>
         </section>
     </main>
+    <script src="js/app.js" ></script>
+
 </body>
+
 </html>

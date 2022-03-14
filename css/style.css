@@ -31,6 +31,8 @@ header img{
     width: 45%;
 }
 
+
+
 #mainImage {
     width: 50%;
 }
@@ -59,4 +61,35 @@ header img{
     color: white;
     background-color: #bc1723;
     padding: 2rem 1rem;
+}
+
+#howtoplay-container{
+    position: relative;
+}
+
+.popup {
+    background-color: white;
+    width: 650px;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.popup a {
+    width: 100%;
+    font-size: 1.5rem;
+    display: inline-block;
+    text-align: right;
+    cursor: pointer;
+}
+
+.popup h2 {
+    text-align: center;
+    background-color: #bc1723;
+    color: white;
+}
+
+.hidden {
+    display: none;
 }
