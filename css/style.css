@@ -13,20 +13,19 @@
 }
 
 body {
-    background-color: white;
+    margin: 0;
     background-image: url("/images/background_with_notes.png");
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 3rem;
+    background-position: 0px 150px;
 }
 
 
 main {
-    margin: 3rem 0rem 4rem 0rem;
+    margin: 3rem 3rem;
     width: 45%;
     float: left;
     list-style-type: none;
-
 }
 
 main h1 {
@@ -40,11 +39,9 @@ header img{
 }
 
 header{
-    width:64%;
     background-color: black;
     float:left;
-    margin-left: -3rem;
-    margin-top: -1rem;
+    width: 100%;
 }
 
 #mainImage {
@@ -84,8 +81,6 @@ a{
     position: fixed;
     width: 100%;
     height: 100%;
-    margin-top: -0.5rem;
-    margin-left: -3rem;
     z-index: 5;
 }
 
