@@ -27,13 +27,35 @@
     <main>
         <h1>Sound Compass - Microbit Piano</h1>
         <img id="mainImage" src="./images/piano.png" alt="Piano">
+        <h2>The Sensors and How the Project works</h2>
         <p>
-            Sound compass is a musical instrument made using microbit. Microbit is a small circuit board with multiple
-            sensors in it. For this instrument, we are using a the built-in compass sensor within the microbit. when the user
-            rotates this board at a certain angle it produces piano sounds. there are 8 pre-defined sounds for the 8
-            different angles at each cardinal and ordinal direction.
+            Sound compass is a musical instrument made using microbit. The Microbit is a small circuit board with multiple
+            sensors in it. For this instrument, the sensor we are making use of is the built-in compass sensor within the Microbit. When the user
+            rotates this board at a certain angle it outputs digital keyboard/piano notes. There are 8 pre-defined musical notes for the 8
+            different angles at each cardinal and ordinal direction. These predefined notes make use of the built-in speakers that come with the Microbit.
         </p>
 
+        <h2>What was learned</h2>
+        <h4>Input - Compass/Direction</h4>
+        <p>
+            The takeaway from the compass heading input we used was that it could automatically keep the values between 0 degrees to 359 degrees when rotating constantly.
+            This made defining ranges for the sounds much easier as we never had to worry about the angle of degrees going up above 360, since the Microbit would go from 0 to 359, and vice versa, when
+            crossing over the North direction.
+        </p>
+        <h4>Output - Musical note sounds</h4>
+        <p>
+            When trying to come up with ideas for what sounds we could produce, we discovered that the Microbit is limited to the digital notes that can be programmed with the Makecode interface.
+            As a result, we focused on the digital keyboard that could create the notes. With hardware extensions, it is possible to produce custom sounds and have them play from the Microbit, which
+            is something that we can explore in the future.
+        </p>
+        <h4>The Makecode Interface</h4>
+        <p>
+            The Microsoft Makecode interface taught us more about how the interactions between input and output on the Microbit happen. About the interface itself, we learned that while
+            the block editor might have only certain blocks to use, the functionality of the blocks can be extended through Javascript or Python. This would be very handy for larger projects where
+            more functionality was needed for hardware extensions for example, making the interface very easy to use and extend.
+        </p>
+
+        <h2>Makecode Github Download</h2>
         <p>You can download the makecode program here: <a href="https://github.com/vanathygowreesan/iot-sound--compass.git"><span class="makecode-link">View Project</span></a></p>
 
         <h2>Demo video and Instructions</h2>
@@ -50,10 +72,13 @@
                     </a>
                     <h2>Instructions to Play</h2>
                     <ol>
-                        <li>Step 1: Open Chrome Browser and open this link.</li> 
-                        <li>Step 2: Connect your microbit to your PC/Mac using a micro USB cable.</li>
-                        <li>Step 3: Pair your microbit with a chrome browser.</li>
-                        <li>Step 4: Rotate your microbit, when you rotate your microbit at certain angle you will hear a piano sound/</li>
+                        <li>Step 1: Open your Browser and download the code from the github listed above.</li> 
+                        <li>Step 2: Go to Microsoft Makecode and import the project as a new project.</li>
+                        <li>Step 3: Download the project to receive a .hex file.</li>
+                        <li>Step 4: Connect your microbit to your PC/Mac using a micro USB cable.</li>
+                        <li>Step 5: Drag the .hex file into your Microbit folder on your computer.</li>
+                        <li>Step 6: Once the program loads on your Microbit, rotate your Microbit. At different angles you will be able to play different notes.</li>
+                        <li>Step 7: Create music!</li>
                     </ol>
                 </div>
                 <button id="instruction-button">How to play</button>
