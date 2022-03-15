@@ -54,7 +54,7 @@ p{
     font-family: Skia Regular;
 }
 
-a{
+a, #makecodeLink{
     text-decoration: none;
     color:#bc1723;
     font-family: Skia Regular;
@@ -118,6 +118,12 @@ iframe {
     display: inline-block;
     text-align: right;
     cursor: pointer;
+}
+
+#makecodeLink {
+    text-align: left;
+    font-size: inherit;
+    display: inline;
 }
 
 .popup h2 {
