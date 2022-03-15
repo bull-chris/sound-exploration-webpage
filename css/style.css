@@ -17,7 +17,7 @@ body {
     background-image: url("/images/background_with_notes.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 150px;
+    background-position: 0px 225px;
 }
 
 
@@ -42,6 +42,13 @@ header{
     background-color: black;
     float:left;
     width: 100%;
+    padding-bottom: 1rem;
+}
+
+#creators {
+    color: white;
+    font-family: Skia Regular;
+    margin-left: 3rem;
 }
 
 #mainImage {
